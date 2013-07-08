@@ -1,3 +1,319 @@
-/* line 1, scss/styles.scss */
+/* line 5, scss/styles.scss */
 body {
-  background: white; }
+  background: #e9e9e9 url("http://www.linkedin.com/scds/common/u/images/themes/katy/textures/texture_grain_200x200_v2.png");
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333;
+  font-weight: normal; }
+
+/* line 18, scss/styles.scss */
+#header {
+  -webkit-box-shadow: 0 0 10px #333;
+  -moz-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333; }
+
+/* line 24, scss/styles.scss */
+.global-header {
+  background: #333;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #555555), color-stop(18%, #515151), color-stop(85%, #373737), color-stop(100%, #333333));
+  background-image: -webkit-linear-gradient(top, #555555 0%, #515151 18%, #373737 85%, #333333 100%);
+  background-image: -moz-linear-gradient(top, #555555 0%, #515151 18%, #373737 85%, #333333 100%);
+  background-image: -o-linear-gradient(top, #555555 0%, #515151 18%, #373737 85%, #333333 100%);
+  background-image: linear-gradient(top, #555555 0%, #515151 18%, #373737 85%, #333333 100%);
+  -webkit-box-shadow: 0 0 10px #333;
+  -moz-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333;
+  font-weight: normal;
+  z-index: 10001;
+  height: 42px;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+/* line 45, scss/styles.scss */
+#top-header {
+  background-color: #3F3F3F;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, dimgrey), color-stop(100%, #3f3f3f));
+  background-image: -webkit-linear-gradient(top, dimgrey 0%, #3f3f3f 100%);
+  background-image: -moz-linear-gradient(top, dimgrey 0%, #3f3f3f 100%);
+  background-image: -o-linear-gradient(top, dimgrey 0%, #3f3f3f 100%);
+  background-image: linear-gradient(top, dimgrey 0%, #3f3f3f 100%);
+  height: 42px;
+  position: relative; }
+
+/* line 56, scss/styles.scss */
+.global-header .wrapper {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  width: 974px;
+  position: relative; }
+
+/* line 64, scss/styles.scss */
+.global-header .wrapper:after {
+  content: " 0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden; }
+
+/* line 73, scss/styles.scss */
+.logo-container {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  float: left; }
+
+/* line 81, scss/styles.scss */
+#in-logo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 3px;
+  background: url("http://www.linkedin.com/scds/common/u/images/logos/logo_in_flat_43x34.png") left center no-repeat;
+  display: block;
+  height: 34px;
+  width: 43px;
+  float: left; }
+
+/* line 93, scss/styles.scss */
+.header-section.first-child {
+  float: left;
+  width: auto; }
+
+/* line 98, scss/styles.scss */
+.header-section.last-child {
+  float: right;
+  margin-left: 10px;
+  width: auto; }
+
+/* line 108, scss/styles.scss */
+.global-search {
+  padding-top: 7px;
+  padding-bottom: 6px;
+  margin-left: 157px;
+  margin-right: -14px;
+  position: relative;
+  float: right; }
+
+/* line 117, scss/styles.scss */
+.global-search fieldset {
+  float: left; }
+
+/* line 121, scss/styles.scss */
+.global-search legend {
+  left: -12345px;
+  position: absolute; }
+
+/* line 126, scss/styles.scss */
+.global-search .search-scope {
+  float: left; }
+
+/* line 130, scss/styles.scss */
+.global-search .search-scope .label {
+  background: #575757;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #888888), color-stop(4%, #888888), color-stop(100%, #575757));
+  background-image: -webkit-linear-gradient(top, #888888 0%, #888888 4%, #575757 100%);
+  background-image: -moz-linear-gradient(top, #888888 0%, #888888 4%, #575757 100%);
+  background-image: -o-linear-gradient(top, #888888 0%, #888888 4%, #575757 100%);
+  background-image: linear-gradient(top, #888888 0%, #888888 4%, #575757 100%);
+  border-radius: 2px 0 0 2px;
+  display: block; }
+
+/* line 141, scss/styles.scss */
+.global-search .styled-dropdown-select-jobs {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  padding-left: 18px;
+  padding-right: 0px;
+  background-image: url("http://www.linkedin.com/scds/common/u/images/themes/katy/sprites/sprite_global_nav_v4.png");
+  background-position: 0 -233px;
+  background-repeat: no-repeat;
+  border: none;
+  height: 27px;
+  margin: 0;
+  width: 12px;
+  border-right: none;
+  display: block;
+  cursor: pointer; }
+
+/* line 160, scss/styles.scss */
+.global-search .search-box-container {
+  float: left;
+  width: auto; }
+
+/* line 165, scss/styles.scss */
+.global-search .search-term {
+  width: 355px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 26px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: none;
+  margin: 0;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333;
+  font-weight: normal;
+  z-index: 10004;
+  -webkit-transition: background 0.4s ease-in-out;
+  -moz-transition: background 0.4s ease-in-out;
+  -o-transition: background 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out;
+  position: relative; }
+
+/* line 191, scss/styles.scss */
+.global-search .search-button {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background: rgba(0, 0, 0, 0) url("http://www.linkedin.com/scds/common/u/img/themes/consumer_v5/header_sprite_v7.png") no-repeat 0 -89px;
+  border: none;
+  cursor: pointer;
+  height: 17px;
+  line-height: 17px;
+  width: 16px; }
+
+/* line 203, scss/styles.scss */
+#top-header .global-search .search-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  margin: 0;
+  overflow: visible;
+  text-decoration: none !important;
+  width: auto;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 13px;
+  height: 31px;
+  line-height: 29px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #FFF;
+  background-color: #287BBC;
+  border-color: #1B5480;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF287BBC', endColorstr='#FF23639A');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #287bbc), color-stop(100%, #23639a));
+  background-image: -webkit-linear-gradient(top, #287bbc 0%, #23639a 100%);
+  background-image: -moz-linear-gradient(top, #287bbc 0%, #23639a 100%);
+  background-image: -o-linear-gradient(top, #287bbc 0%, #23639a 100%);
+  background-image: linear-gradient(top, #287bbc 0%, #23639a 100%);
+  white-space: nowrap;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: block;
+  float: left;
+  height: 27px;
+  line-height: 24px;
+  overflow: hidden;
+  width: 50px; }
+
+/* line 254, scss/styles.scss */
+#top-header .global-search .search-button span {
+  margin-left: 13px;
+  margin-right: 13px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  background: rgba(0, 0, 0, 0) url("http://www.linkedin.com/scds/common/u/images/themes/katy/sprites/sprite_global_nav_v4.png") no-repeat -5px -659px;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  vertical-align: middle;
+  width: 16px; }
+
+/* line 269, scss/styles.scss */
+.global-search .advanced-search {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background: none;
+  color: #D7D7D7;
+  font-size: 11px;
+  height: auto;
+  line-height: 11px;
+  text-decoration: none;
+  text-indent: 0;
+  width: auto;
+  float: right;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer; }
+
+/* line 299, scss/styles.scss */
+.global-header .nav-item {
+  position: static;
+  float: left;
+  line-height: 13px; }
+
+/* line 305, scss/styles.scss */
+.global-header .utilities .activity-toggle {
+  padding-top: 14px;
+  padding-bottom: 15px;
+  background-image: url("http://www.linkedin.com/scds/common/u/images/themes/katy/sprites/sprite_global_nav_v4.png");
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  display: block;
+  width: 20px; }
+
+/* line 323, scss/styles.scss */
+.global-header .utilities .inbox-alert {
+  background-position: 4px 12px; }
+
+/* line 327, scss/styles.scss */
+.global-header .utilities .notifications-alert {
+  background-position: center -30px; }
+
+/* line 331, scss/styles.scss */
+.global-header .utilities .add-connections-btn {
+  background-position: center -114px; }
+
+/* line 335, scss/styles.scss */
+.global-header .utilities .account-toggle {
+  margin-left: 5px;
+  margin-right: 0px;
+  padding: 10px;
+  display: block; }

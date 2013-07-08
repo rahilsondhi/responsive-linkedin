@@ -2,10 +2,67 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.10.3/build/cssreset/cssreset-min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Search | LinkedIn</title>
 </head>
 <body>
+  <div id="header" class="global-header">
+    <div id="top-header">
+        <div class="wrapper">
+        <div class="header-section first-child">
+          <h2 class="logo-container">
+            <a href="http://www.linkedin.com/?trk=nav_logo" class="logo" id="in-logo">LinkedIn</a>
+          </h2>
 
+          <form id="global-search" class="global-search">
+            <fieldset>
+              <legend>Find People, Jobs, Companies, and More</legend>
+              <div class="search-scope global-nav-styled-dropdown">
+                <span class="label">
+                  <span class="styled-dropdown-select-jobs"></span>
+                </span>
+              </div>
+              <div class="search-box-container" id="search-box-container">
+                <span id="search-autocomplete-container">
+                  <input type="text" class="search-term" placeholder="Search jobs..." />
+                </span>
+              </div>
+              <button class="search-button"><span>Search</span></button>
+            </fieldset>
+
+            <a class="advanced-search">Advanced</a>
+          </form>
+        </div>
+
+        <div class="header-section last-child">
+          <ul class="nav utilities">
+            <li class="nav-item activity-tab">
+              <a href="" class="activity-toggle inbox-alert">Inbox</a>
+            </li>
+            <li class="nav-item activity-tab">
+              <a href="" class="activity-toggle notifications-alert">Notification</a>
+            </li>
+            <li class="nav-item activity-tab">
+              <a href="" class="activity-toggle add-connections-btn">Add Connections</a>
+            </li>
+            <li class="nav-item account-settings-tab">
+              <a href="" class="account-toggle">
+                <img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_20_20/p/4/000/156/14a/07c4476.jpg"  class="img-defer nav-profile-photo" alt="Rahil Sondhi" height="20" width="20">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body">
+    <div class="wrapper">
+      <div id="srp_main">
+        <div id="srp_container"></div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
