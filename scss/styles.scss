@@ -11,6 +11,11 @@ body {
   font-weight: normal;
 }
 
+a {
+  color: #0077B5;
+  text-decoration: none;
+}
+
 //
 // Header
 //
@@ -337,4 +342,133 @@ body {
   margin-right: 0px;
   padding: 10px;
   display: block;
+}
+
+//
+// Body
+//
+
+#body {
+  clear: both;
+  margin: 0 auto;
+  padding: 80px 10px;
+  width: 980px;
+}
+
+#body .wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 974px;
+}
+
+#srp_main_ {
+  background: #FFF;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),-1px 0 0 rgba(0, 0, 0, 0.03),1px 0 0 rgba(0, 0, 0, 0.03),0 1px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),-1px 0 0 rgba(0, 0, 0, 0.03),1px 0 0 rgba(0, 0, 0, 0.03),0 1px 0 rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+#srp_container {
+  position: relative;
+  min-height: 730px;
+  height: auto;
+  _height: 730px;
+}
+
+//
+// Jobs
+//
+
+#facets-col {
+  background-color: orange;
+  float: left;
+  margin-top: 35px;
+  width: 195px;
+}
+
+#results-col {
+  background-color: green;
+  float: left;
+  width: 564px;
+}
+
+#details-col {
+  background-color: lightblue;
+  display: none;
+  margin-right: -(195 + 564)px;
+}
+
+.srp-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+
+.srp-title h2 {
+  background: #333;
+  color: #FFF;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: bold;
+  padding: 7.5px 26px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  text-transform: uppercase;
+}
+
+//
+// Facets
+//
+
+#facets-col .mod {
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  background-image: -moz-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  background-image: -o-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  background-image: linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  -moz-box-shadow: inset 0 0 0 #fff,0 0 0 #fff,inset -9999px 0 0 #fff;
+  box-shadow: inset 0 0 0 #FFF,0 0 0 #FFF,inset -9999px 0 0 #FFF;
+  -webkit-background-origin: border;
+  -moz-background-origin: border;
+  -ms-background-origin: border-box;
+  -o-background-origin: border-box;
+  background-origin: border-box;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-bottom-width: 1px;
+}
+
+#facets-col.facets-up .advs-link {
+  padding-left: 26px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+#facets-col .advs-link {
+  display: block;
+  color: #888;
+  padding: 5px 0 15px 26px;
+  position: relative;
+  z-index: 80;
+}
+
+#facets-col .advs-link .advs-indicator.available {
+  background-position: -7px -419px;
+}
+
+#facets-col .advs-link .advs-indicator {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  height: 12px;
+  width: 8px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  margin-left: 8px;
+  background: rgba(0, 0, 0, 0) url('http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png') no-repeat 0 -419px;
 }

@@ -7,13 +7,18 @@ body {
   color: #333;
   font-weight: normal; }
 
-/* line 18, scss/styles.scss */
+/* line 14, scss/styles.scss */
+a {
+  color: #0077B5;
+  text-decoration: none; }
+
+/* line 23, scss/styles.scss */
 #header {
   -webkit-box-shadow: 0 0 10px #333;
   -moz-box-shadow: 0 0 10px #333;
   box-shadow: 0 0 10px #333; }
 
-/* line 24, scss/styles.scss */
+/* line 29, scss/styles.scss */
 .global-header {
   background: #333;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #555555), color-stop(18%, #515151), color-stop(85%, #373737), color-stop(100%, #333333));
@@ -34,7 +39,7 @@ body {
   top: 0;
   width: 100%; }
 
-/* line 45, scss/styles.scss */
+/* line 50, scss/styles.scss */
 #top-header {
   background-color: #3F3F3F;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, dimgrey), color-stop(100%, #3f3f3f));
@@ -45,7 +50,7 @@ body {
   height: 42px;
   position: relative; }
 
-/* line 56, scss/styles.scss */
+/* line 61, scss/styles.scss */
 .global-header .wrapper {
   clear: both;
   margin-left: auto;
@@ -53,7 +58,7 @@ body {
   width: 974px;
   position: relative; }
 
-/* line 64, scss/styles.scss */
+/* line 69, scss/styles.scss */
 .global-header .wrapper:after {
   content: " 0020";
   display: block;
@@ -62,7 +67,7 @@ body {
   overflow: hidden;
   visibility: hidden; }
 
-/* line 73, scss/styles.scss */
+/* line 78, scss/styles.scss */
 .logo-container {
   margin: 0;
   padding-top: 0;
@@ -70,7 +75,7 @@ body {
   border-bottom: none;
   float: left; }
 
-/* line 81, scss/styles.scss */
+/* line 86, scss/styles.scss */
 #in-logo {
   text-indent: -119988px;
   overflow: hidden;
@@ -82,18 +87,18 @@ body {
   width: 43px;
   float: left; }
 
-/* line 93, scss/styles.scss */
+/* line 98, scss/styles.scss */
 .header-section.first-child {
   float: left;
   width: auto; }
 
-/* line 98, scss/styles.scss */
+/* line 103, scss/styles.scss */
 .header-section.last-child {
   float: right;
   margin-left: 10px;
   width: auto; }
 
-/* line 108, scss/styles.scss */
+/* line 113, scss/styles.scss */
 .global-search {
   padding-top: 7px;
   padding-bottom: 6px;
@@ -102,20 +107,20 @@ body {
   position: relative;
   float: right; }
 
-/* line 117, scss/styles.scss */
+/* line 122, scss/styles.scss */
 .global-search fieldset {
   float: left; }
 
-/* line 121, scss/styles.scss */
+/* line 126, scss/styles.scss */
 .global-search legend {
   left: -12345px;
   position: absolute; }
 
-/* line 126, scss/styles.scss */
+/* line 131, scss/styles.scss */
 .global-search .search-scope {
   float: left; }
 
-/* line 130, scss/styles.scss */
+/* line 135, scss/styles.scss */
 .global-search .search-scope .label {
   background: #575757;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #888888), color-stop(4%, #888888), color-stop(100%, #575757));
@@ -126,7 +131,7 @@ body {
   border-radius: 2px 0 0 2px;
   display: block; }
 
-/* line 141, scss/styles.scss */
+/* line 146, scss/styles.scss */
 .global-search .styled-dropdown-select-jobs {
   text-indent: -119988px;
   overflow: hidden;
@@ -144,12 +149,12 @@ body {
   display: block;
   cursor: pointer; }
 
-/* line 160, scss/styles.scss */
+/* line 165, scss/styles.scss */
 .global-search .search-box-container {
   float: left;
   width: auto; }
 
-/* line 165, scss/styles.scss */
+/* line 170, scss/styles.scss */
 .global-search .search-term {
   width: 355px;
   -webkit-border-radius: 2px;
@@ -174,7 +179,7 @@ body {
   transition: background 0.4s ease-in-out;
   position: relative; }
 
-/* line 191, scss/styles.scss */
+/* line 196, scss/styles.scss */
 .global-search .search-button {
   text-indent: -119988px;
   overflow: hidden;
@@ -186,7 +191,7 @@ body {
   line-height: 17px;
   width: 16px; }
 
-/* line 203, scss/styles.scss */
+/* line 208, scss/styles.scss */
 #top-header .global-search .search-button {
   background: none;
   border: none;
@@ -237,7 +242,7 @@ body {
   overflow: hidden;
   width: 50px; }
 
-/* line 254, scss/styles.scss */
+/* line 259, scss/styles.scss */
 #top-header .global-search .search-button span {
   margin-left: 13px;
   margin-right: 13px;
@@ -252,7 +257,7 @@ body {
   vertical-align: middle;
   width: 16px; }
 
-/* line 269, scss/styles.scss */
+/* line 274, scss/styles.scss */
 .global-search .advanced-search {
   margin-left: 5px;
   margin-right: 5px;
@@ -277,13 +282,13 @@ body {
   text-align: left;
   cursor: pointer; }
 
-/* line 299, scss/styles.scss */
+/* line 304, scss/styles.scss */
 .global-header .nav-item {
   position: static;
   float: left;
   line-height: 13px; }
 
-/* line 305, scss/styles.scss */
+/* line 310, scss/styles.scss */
 .global-header .utilities .activity-toggle {
   padding-top: 14px;
   padding-bottom: 15px;
@@ -299,21 +304,138 @@ body {
   display: block;
   width: 20px; }
 
-/* line 323, scss/styles.scss */
+/* line 328, scss/styles.scss */
 .global-header .utilities .inbox-alert {
   background-position: 4px 12px; }
 
-/* line 327, scss/styles.scss */
+/* line 332, scss/styles.scss */
 .global-header .utilities .notifications-alert {
   background-position: center -30px; }
 
-/* line 331, scss/styles.scss */
+/* line 336, scss/styles.scss */
 .global-header .utilities .add-connections-btn {
   background-position: center -114px; }
 
-/* line 335, scss/styles.scss */
+/* line 340, scss/styles.scss */
 .global-header .utilities .account-toggle {
   margin-left: 5px;
   margin-right: 0px;
   padding: 10px;
   display: block; }
+
+/* line 351, scss/styles.scss */
+#body {
+  clear: both;
+  margin: 0 auto;
+  padding: 80px 10px;
+  width: 980px; }
+
+/* line 358, scss/styles.scss */
+#body .wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 974px; }
+
+/* line 364, scss/styles.scss */
+#srp_main_ {
+  background: #FFF;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+  position: relative; }
+
+/* line 372, scss/styles.scss */
+#srp_container {
+  position: relative;
+  min-height: 730px;
+  height: auto;
+  _height: 730px; }
+
+/* line 383, scss/styles.scss */
+#facets-col {
+  background-color: orange;
+  float: left;
+  margin-top: 35px;
+  width: 195px; }
+
+/* line 390, scss/styles.scss */
+#results-col {
+  background-color: green;
+  float: left;
+  width: 564px; }
+
+/* line 396, scss/styles.scss */
+#details-col {
+  background-color: lightblue;
+  display: none;
+  margin-right: -759 px; }
+
+/* line 402, scss/styles.scss */
+.srp-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0; }
+
+/* line 409, scss/styles.scss */
+.srp-title h2 {
+  background: #333;
+  color: #FFF;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: bold;
+  padding: 7.5px 26px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  text-transform: uppercase; }
+
+/* line 427, scss/styles.scss */
+#facets-col .mod {
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(left, lightgrey 0%, #ededed 100%);
+  background-image: -moz-linear-gradient(left, lightgrey 0%, #ededed 100%);
+  background-image: -o-linear-gradient(left, lightgrey 0%, #ededed 100%);
+  background-image: linear-gradient(left, lightgrey 0%, #ededed 100%);
+  -moz-box-shadow: inset 0 0 0 #fff,0 0 0 #fff,inset -9999px 0 0 #fff;
+  box-shadow: inset 0 0 0 #FFF,0 0 0 #FFF,inset -9999px 0 0 #FFF;
+  -webkit-background-origin: border;
+  -moz-background-origin: border;
+  -ms-background-origin: border-box;
+  -o-background-origin: border-box;
+  background-origin: border-box;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-bottom-width: 1px; }
+
+/* line 444, scss/styles.scss */
+#facets-col.facets-up .advs-link {
+  padding-left: 26px;
+  padding-top: 5px;
+  padding-bottom: 6px; }
+
+/* line 450, scss/styles.scss */
+#facets-col .advs-link {
+  display: block;
+  color: #888;
+  padding: 5px 0 15px 26px;
+  position: relative;
+  z-index: 80; }
+
+/* line 458, scss/styles.scss */
+#facets-col .advs-link .advs-indicator.available {
+  background-position: -7px -419px; }
+
+/* line 462, scss/styles.scss */
+#facets-col .advs-link .advs-indicator {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  height: 12px;
+  width: 8px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  margin-left: 8px;
+  background: rgba(0, 0, 0, 0) url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat 0 -419px; }

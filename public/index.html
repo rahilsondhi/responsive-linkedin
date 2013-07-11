@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.10.3/build/cssreset/cssreset-min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <title>Search | LinkedIn</title>
 </head>
 <body>
@@ -59,10 +60,34 @@
 
   <div id="body">
     <div class="wrapper">
-      <div id="srp_main">
-        <div id="srp_container"></div>
+      <div id="srp_main_">
+        <div id="srp_container">
+          <div class="mod srp-title">
+            <h2>Search</h2>
+          </div>
+
+          <div id="facets-col">
+            <a href="" id="advs-link" class="advs-link mod">
+              Advanced
+              <span class="advs-indicator available">Advanced Search is available for jobs</span>
+            </a>
+          </div>
+
+          <div id="results-col">
+            Results
+          </div>
+          <div id="details-col">
+            The shit will go here
+          </div>
+          <div id="ads-col" class="col"></div>
+          <div class="feedback-button"></div>
+        </div>
+
+        <div id="ads-container"></div>
       </div>
     </div>
   </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </body>
 </html>

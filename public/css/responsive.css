@@ -1,0 +1,14 @@
+@media screen and (min-width: 1400px) {
+  /* line 2, scss/responsive.scss */
+  #body {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+
+  /* line 8, scss/responsive.scss */
+  #body .wrapper {
+    width: 98%; }
+
+  /* line 12, scss/responsive.scss */
+  #details-col {
+    display: block; } }
