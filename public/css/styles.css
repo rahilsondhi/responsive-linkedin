@@ -407,24 +407,18 @@ a {
   border-bottom-width: 1px; }
 
 /* line 442, scss/styles.scss */
-#facets-col.facets-up .advs-link {
-  padding-left: 26px;
-  padding-top: 5px;
-  padding-bottom: 6px; }
-
-/* line 448, scss/styles.scss */
 #facets-col .advs-link {
   display: block;
   color: #888;
-  padding: 5px 0 15px 26px;
+  padding: 5px 0 6px 26px;
   position: relative;
   z-index: 80; }
 
-/* line 456, scss/styles.scss */
+/* line 450, scss/styles.scss */
 #facets-col .advs-link .advs-indicator.available {
   background-position: -7px -419px; }
 
-/* line 460, scss/styles.scss */
+/* line 454, scss/styles.scss */
 #facets-col .advs-link .advs-indicator {
   text-indent: -119988px;
   overflow: hidden;
@@ -437,3 +431,61 @@ a {
   zoom: 1;
   margin-left: 8px;
   background: rgba(0, 0, 0, 0) url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat 0 -419px; }
+
+/* line 468, scss/styles.scss */
+#facets-col .search-types {
+  padding-top: 8px;
+  padding-bottom: 9px; }
+
+/* line 473, scss/styles.scss */
+#facets-col .mod {
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(left, lightgrey 0%, #ededed 100%);
+  background-image: -moz-linear-gradient(left, lightgrey 0%, #ededed 100%);
+  background-image: -o-linear-gradient(left, lightgrey 0%, #ededed 100%);
+  background-image: linear-gradient(left, lightgrey 0%, #ededed 100%);
+  -moz-box-shadow: inset 0 0 0 #fff,0 0 0 #fff,inset -9999px 0 0 #fff;
+  box-shadow: inset 0 0 0 #FFF,0 0 0 #FFF,inset -9999px 0 0 #FFF;
+  -webkit-background-origin: border;
+  -moz-background-origin: border;
+  -ms-background-origin: border-box;
+  -o-background-origin: border-box;
+  background-origin: border-box;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-bottom-width: 1px; }
+
+/* line 490, scss/styles.scss */
+.search-types {
+  padding: 20px 0; }
+
+/* line 494, scss/styles.scss */
+.search-types li {
+  margin-right: 20px; }
+
+/* line 498, scss/styles.scss */
+.search-types a {
+  color: #808080;
+  line-height: 20px;
+  padding-left: 26px; }
+
+/* line 504, scss/styles.scss */
+.search-types li.selected {
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF01ADEF', endColorstr='#FF00CDED');
+  background: #01ADEF;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #01adef), color-stop(100%, #00cded));
+  background-image: -webkit-linear-gradient(#01adef, #00cded);
+  background-image: -moz-linear-gradient(#01adef, #00cded);
+  background-image: -o-linear-gradient(#01adef, #00cded);
+  background-image: linear-gradient(#01adef, #00cded); }
+
+/* line 514, scss/styles.scss */
+.search-types li.selected strong {
+  background-color: #FFF;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin: -2px 0 0 11px;
+  padding: 3px 0 0 15px;
+  text-decoration: none; }

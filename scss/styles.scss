@@ -439,16 +439,10 @@ a {
   border-bottom-width: 1px;
 }
 
-#facets-col.facets-up .advs-link {
-  padding-left: 26px;
-  padding-top: 5px;
-  padding-bottom: 6px;
-}
-
 #facets-col .advs-link {
   display: block;
   color: #888;
-  padding: 5px 0 15px 26px;
+  padding: 5px 0 6px 26px;
   position: relative;
   z-index: 80;
 }
@@ -469,4 +463,62 @@ a {
   zoom: 1;
   margin-left: 8px;
   background: rgba(0, 0, 0, 0) url('http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png') no-repeat 0 -419px;
+}
+
+#facets-col .search-types {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+#facets-col .mod {
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  background-image: -moz-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  background-image: -o-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  background-image: linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
+  -moz-box-shadow: inset 0 0 0 #fff,0 0 0 #fff,inset -9999px 0 0 #fff;
+  box-shadow: inset 0 0 0 #FFF,0 0 0 #FFF,inset -9999px 0 0 #FFF;
+  -webkit-background-origin: border;
+  -moz-background-origin: border;
+  -ms-background-origin: border-box;
+  -o-background-origin: border-box;
+  background-origin: border-box;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-bottom-width: 1px;
+}
+
+.search-types {
+  padding: 20px 0;
+}
+
+.search-types li {
+  margin-right: 20px;
+}
+
+.search-types a {
+  color: #808080;
+  line-height: 20px;
+  padding-left: 26px;
+}
+
+.search-types li.selected {
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF01ADEF', endColorstr='#FF00CDED');
+  background: #01ADEF;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #01ADEF), color-stop(100%, #00CDED));
+  background-image: -webkit-linear-gradient(#01ADEF,#00CDED);
+  background-image: -moz-linear-gradient(#01ADEF,#00CDED);
+  background-image: -o-linear-gradient(#01ADEF,#00CDED);
+  background-image: linear-gradient(#01ADEF,#00CDED);
+}
+
+.search-types li.selected strong {
+  background-color: #FFF;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin: -2px 0 0 11px;
+  padding: 3px 0 0 15px;
+  text-decoration: none;
 }
