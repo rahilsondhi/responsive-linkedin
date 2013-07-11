@@ -381,22 +381,20 @@ a {
 //
 
 #facets-col {
-  background-color: orange;
   float: left;
   margin-top: 35px;
   width: 195px;
 }
 
 #results-col {
-  background-color: green;
   float: left;
   width: 564px;
 }
 
 #details-col {
-  background-color: lightblue;
   display: none;
-  margin-right: -(195 + 564)px;
+  margin-right: -195px - 564px;
+  width: 100%;
 }
 
 .srp-title {

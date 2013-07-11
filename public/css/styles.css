@@ -353,31 +353,29 @@ a {
 
 /* line 383, scss/styles.scss */
 #facets-col {
-  background-color: orange;
   float: left;
   margin-top: 35px;
   width: 195px; }
 
-/* line 390, scss/styles.scss */
+/* line 389, scss/styles.scss */
 #results-col {
-  background-color: green;
   float: left;
   width: 564px; }
 
-/* line 396, scss/styles.scss */
+/* line 394, scss/styles.scss */
 #details-col {
-  background-color: lightblue;
   display: none;
-  margin-right: -759 px; }
+  margin-right: -759px;
+  width: 100%; }
 
-/* line 402, scss/styles.scss */
+/* line 400, scss/styles.scss */
 .srp-title {
   position: absolute;
   top: 0;
   left: 0;
   padding: 0; }
 
-/* line 409, scss/styles.scss */
+/* line 407, scss/styles.scss */
 .srp-title h2 {
   background: #333;
   color: #FFF;
@@ -391,7 +389,7 @@ a {
   zoom: 1;
   text-transform: uppercase; }
 
-/* line 427, scss/styles.scss */
+/* line 425, scss/styles.scss */
 #facets-col .mod {
   background-color: #FFF;
   background-image: -webkit-linear-gradient(left, lightgrey 0%, #ededed 100%);
@@ -408,13 +406,13 @@ a {
   border: 0 solid rgba(0, 0, 0, 0);
   border-bottom-width: 1px; }
 
-/* line 444, scss/styles.scss */
+/* line 442, scss/styles.scss */
 #facets-col.facets-up .advs-link {
   padding-left: 26px;
   padding-top: 5px;
   padding-bottom: 6px; }
 
-/* line 450, scss/styles.scss */
+/* line 448, scss/styles.scss */
 #facets-col .advs-link {
   display: block;
   color: #888;
@@ -422,11 +420,11 @@ a {
   position: relative;
   z-index: 80; }
 
-/* line 458, scss/styles.scss */
+/* line 456, scss/styles.scss */
 #facets-col .advs-link .advs-indicator.available {
   background-position: -7px -419px; }
 
-/* line 462, scss/styles.scss */
+/* line 460, scss/styles.scss */
 #facets-col .advs-link .advs-indicator {
   text-indent: -119988px;
   overflow: hidden;
