@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
   /* line 2, scss/responsive.scss */
   #body {
     padding-left: 0;
@@ -11,4 +11,8 @@
 
   /* line 12, scss/responsive.scss */
   #details-col {
+    display: block; }
+
+  /* line 16, scss/responsive.scss */
+  #extra-col {
     display: block; } }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
   #body {
     padding-left: 0;
     padding-right: 0;
@@ -10,6 +10,10 @@
   }
 
   #details-col {
+    display: block;
+  }
+
+  #extra-col {
     display: block;
   }
 }

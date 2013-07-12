@@ -424,14 +424,30 @@ clear: both;
 
 #results-col {
   float: left;
+  padding: 0 20px;
   width: 564px;
 }
 
 #details-col {
   display: none;
+  padding: 10px 20px 10px 0;
+
+  // First option, negative margin
   // margin-right: -195px - 564px;
   // width: 100%;
+
+  // Second option, overflow hidden
   overflow: hidden;
+
+  // Third option, fixed width
+  // float: left;
+  // width: 638px;
+}
+
+#extra-col {
+  display: none;
+  float: right;
+  width: 300px;
 }
 
 .srp-title {
@@ -800,9 +816,9 @@ button.facet-toggle {
 
 .viewjob .content-module {
   // border-top: 1px solid #DDD;
-  // clear: both;
+  clear: both;
   font-size: 13px;
-  // overflow: hidden;
+  overflow: hidden;
   // padding: 20px 10px;
 }
 

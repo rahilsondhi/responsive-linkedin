@@ -392,21 +392,29 @@ body strong {
 /* line 425, scss/styles.scss */
 #results-col {
   float: left;
+  padding: 0 20px;
   width: 564px; }
 
-/* line 430, scss/styles.scss */
+/* line 431, scss/styles.scss */
 #details-col {
   display: none;
+  padding: 10px 20px 10px 0;
   overflow: hidden; }
 
-/* line 437, scss/styles.scss */
+/* line 447, scss/styles.scss */
+#extra-col {
+  display: none;
+  float: right;
+  width: 300px; }
+
+/* line 453, scss/styles.scss */
 .srp-title {
   position: absolute;
   top: 0;
   left: 0;
   padding: 0; }
 
-/* line 444, scss/styles.scss */
+/* line 460, scss/styles.scss */
 .srp-title h2 {
   background: #333;
   color: #FFF;
@@ -420,14 +428,14 @@ body strong {
   zoom: 1;
   text-transform: uppercase; }
 
-/* line 462, scss/styles.scss */
+/* line 478, scss/styles.scss */
 #facets-col .mod {
   background-image: -webkit-linear-gradient(left, lightgrey 0%, #ededed 100%);
   background-image: -moz-linear-gradient(left, lightgrey 0%, #ededed 100%);
   background-image: -o-linear-gradient(left, lightgrey 0%, #ededed 100%);
   background-image: linear-gradient(left, lightgrey 0%, #ededed 100%); }
 
-/* line 469, scss/styles.scss */
+/* line 485, scss/styles.scss */
 #facets-col .advs-link {
   display: block;
   color: #888;
@@ -435,11 +443,11 @@ body strong {
   position: relative;
   z-index: 80; }
 
-/* line 477, scss/styles.scss */
+/* line 493, scss/styles.scss */
 #facets-col .advs-link .advs-indicator.available {
   background-position: -7px -419px; }
 
-/* line 481, scss/styles.scss */
+/* line 497, scss/styles.scss */
 #facets-col .advs-link .advs-indicator {
   text-indent: -119988px;
   overflow: hidden;
@@ -453,26 +461,26 @@ body strong {
   margin-left: 8px;
   background: rgba(0, 0, 0, 0) url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat 0 -419px; }
 
-/* line 495, scss/styles.scss */
+/* line 511, scss/styles.scss */
 #facets-col .search-types {
   padding-top: 8px;
   padding-bottom: 9px; }
 
-/* line 500, scss/styles.scss */
+/* line 516, scss/styles.scss */
 .search-types {
   padding: 20px 0; }
 
-/* line 504, scss/styles.scss */
+/* line 520, scss/styles.scss */
 .search-types li {
   margin-right: 20px; }
 
-/* line 508, scss/styles.scss */
+/* line 524, scss/styles.scss */
 .search-types a {
   color: #808080;
   line-height: 20px;
   padding-left: 26px; }
 
-/* line 514, scss/styles.scss */
+/* line 530, scss/styles.scss */
 .search-types li.selected {
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF01ADEF', endColorstr='#FF00CDED');
   background: #01ADEF;
@@ -482,7 +490,7 @@ body strong {
   background-image: -o-linear-gradient(#01adef, #00cded);
   background-image: linear-gradient(#01adef, #00cded); }
 
-/* line 524, scss/styles.scss */
+/* line 540, scss/styles.scss */
 .search-types li.selected strong {
   background-color: #FFF;
   color: #000;
@@ -494,18 +502,18 @@ body strong {
   padding: 3px 0 0 15px;
   text-decoration: none; }
 
-/* line 536, scss/styles.scss */
+/* line 552, scss/styles.scss */
 .facet {
   position: relative; }
 
-/* line 540, scss/styles.scss */
+/* line 556, scss/styles.scss */
 .facet fieldset {
   border: 0;
   margin: 0;
   padding: 0;
   position: relative; }
 
-/* line 547, scss/styles.scss */
+/* line 563, scss/styles.scss */
 legend.facet-toggle {
   color: #333;
   cursor: pointer;
@@ -517,15 +525,15 @@ legend.facet-toggle {
   margin-left: 2px;
   width: 140px; }
 
-/* line 559, scss/styles.scss */
+/* line 575, scss/styles.scss */
 button.facet-toggle {
   display: none; }
 
-/* line 567, scss/styles.scss */
+/* line 583, scss/styles.scss */
 .results_count {
   position: relative; }
 
-/* line 571, scss/styles.scss */
+/* line 587, scss/styles.scss */
 .results_count .jobs-sort {
   position: absolute;
   top: 0;
@@ -534,7 +542,7 @@ button.facet-toggle {
   width: auto;
   _width: 154px; }
 
-/* line 580, scss/styles.scss */
+/* line 596, scss/styles.scss */
 .results_count .jobs-sort .dropdown-trigger {
   border: none;
   background: none;
@@ -546,12 +554,12 @@ button.facet-toggle {
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 596, scss/styles.scss */
+/* line 612, scss/styles.scss */
 #pivot-bar {
   overflow: hidden;
   padding: 5px 0 10px 0; }
 
-/* line 601, scss/styles.scss */
+/* line 617, scss/styles.scss */
 #pivot-bar .pivot {
   background-color: #EBEBEB;
   padding: 5px 5px 4px 10px;
@@ -569,7 +577,7 @@ button.facet-toggle {
   border-radius: 2px;
   white-space: nowrap; }
 
-/* line 619, scss/styles.scss */
+/* line 635, scss/styles.scss */
 #pivot-bar .remove-pivot {
   border: none;
   text-indent: -119988px;
@@ -583,7 +591,7 @@ button.facet-toggle {
   padding: 0;
   cursor: pointer; }
 
-/* line 633, scss/styles.scss */
+/* line 649, scss/styles.scss */
 #pivot-bar .pivot-reset {
   float: left;
   padding: 5px 10px 4px 10px;
@@ -599,11 +607,11 @@ button.facet-toggle {
   -o-border-radius: 2px;
   border-radius: 2px; }
 
-/* line 653, scss/styles.scss */
+/* line 669, scss/styles.scss */
 #results-container {
   position: relative; }
 
-/* line 657, scss/styles.scss */
+/* line 673, scss/styles.scss */
 .result {
   height: auto;
   min-height: 60px;
@@ -611,17 +619,17 @@ button.facet-toggle {
   position: relative;
   overflow: visible; }
 
-/* line 665, scss/styles.scss */
+/* line 681, scss/styles.scss */
 .result .entity-img {
   float: left; }
 
-/* line 669, scss/styles.scss */
+/* line 685, scss/styles.scss */
 .result .bd {
   margin-left: 68px;
   width: 65%;
   word-wrap: break-word; }
 
-/* line 675, scss/styles.scss */
+/* line 691, scss/styles.scss */
 .result .bd h3 {
   font-size: 16px;
   font-weight: bold;
@@ -630,66 +638,66 @@ button.facet-toggle {
   line-height: 17px;
   font-weight: normal; }
 
-/* line 684, scss/styles.scss */
+/* line 700, scss/styles.scss */
 .result .bd h3 a.title {
   margin-right: 5px; }
 
-/* line 688, scss/styles.scss */
+/* line 704, scss/styles.scss */
 .result .bd .description {
   line-height: 17px;
   color: #333;
   font-weight: normal;
   font-size: 12px; }
 
-/* line 695, scss/styles.scss */
+/* line 711, scss/styles.scss */
 .result .bd .demographic {
   color: #A9A9A9;
   font-size: 12px;
   margin-top: -2px;
   overflow: hidden; }
 
-/* line 702, scss/styles.scss */
+/* line 718, scss/styles.scss */
 .result .bd .demographic dt {
   position: absolute;
   left: -9999px; }
 
-/* line 707, scss/styles.scss */
+/* line 723, scss/styles.scss */
 .result .bd .demographic dd {
   float: left; }
 
-/* line 711, scss/styles.scss */
+/* line 727, scss/styles.scss */
 .result .bd .demographic .separator {
   background: url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat -3px -236px;
   margin-left: 3px;
   padding-left: 8px; }
 
-/* line 717, scss/styles.scss */
+/* line 733, scss/styles.scss */
 .result .bd .social-wrapper {
   min-height: 17px;
   height: auto;
   _height: 17px; }
 
-/* line 723, scss/styles.scss */
+/* line 739, scss/styles.scss */
 .result .bd .social-wrapper .social-line {
   color: #519421;
   font-size: 12px;
   margin-top: -2px; }
 
-/* line 729, scss/styles.scss */
+/* line 745, scss/styles.scss */
 .result .bd .social-wrapper .social-line a {
   color: #519421; }
 
-/* line 733, scss/styles.scss */
+/* line 749, scss/styles.scss */
 .result .bd .social-wrapper .social-line li {
   display: inline; }
 
-/* line 737, scss/styles.scss */
+/* line 753, scss/styles.scss */
 .result .bd .social-wrapper .social-line li.similar a {
   background: url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat -4px -261px;
   padding-left: 6px;
   margin-left: 4px; }
 
-/* line 743, scss/styles.scss */
+/* line 759, scss/styles.scss */
 .result .srp-actions {
   display: -moz-inline-stack;
   display: inline-block;
@@ -700,7 +708,7 @@ button.facet-toggle {
   right: 0;
   white-space: nowrap; }
 
-/* line 754, scss/styles.scss */
+/* line 770, scss/styles.scss */
 .result .srp-actions .primary-action-button {
   font-weight: bold;
   border-width: 1px;
@@ -739,15 +747,17 @@ button.facet-toggle {
   zoom: 1;
   vertical-align: middle; }
 
-/* line 793, scss/styles.scss */
+/* line 809, scss/styles.scss */
 .result .srp-actions.blue-button .primary-action-button a {
   color: #fff; }
 
-/* line 801, scss/styles.scss */
+/* line 817, scss/styles.scss */
 .viewjob .content-module {
-  font-size: 13px; }
+  clear: both;
+  font-size: 13px;
+  overflow: hidden; }
 
-/* line 809, scss/styles.scss */
+/* line 825, scss/styles.scss */
 .viewjob .job-vitals {
   background: url("http://www.linkedin.com/scds/common/u/img/bg/bg_search_box_1x136.png") repeat-x 0 0 #f0f0f0;
   border: 1px solid #DDD;
@@ -759,7 +769,7 @@ button.facet-toggle {
   font-size: 13px;
   padding: 20px 0; }
 
-/* line 821, scss/styles.scss */
+/* line 837, scss/styles.scss */
 .viewjob .job-vitals .logo {
   height: 60px;
   width: 100px;
@@ -770,7 +780,7 @@ button.facet-toggle {
   margin-right: 15px;
   padding: 5px; }
 
-/* line 832, scss/styles.scss */
+/* line 848, scss/styles.scss */
 .viewjob .job-vitals .logo .photo {
   position: absolute;
   top: 0;
@@ -781,62 +791,62 @@ button.facet-toggle {
   padding: 0;
   border: none; }
 
-/* line 843, scss/styles.scss */
+/* line 859, scss/styles.scss */
 .viewjob .job-vitals .has-logo {
   padding: 5px 135px 0 10px; }
 
-/* line 847, scss/styles.scss */
+/* line 863, scss/styles.scss */
 .viewjob .job-vitals h1 {
   font-size: 20px;
   font-weight: normal; }
 
-/* line 853, scss/styles.scss */
+/* line 869, scss/styles.scss */
 .viewjob .content-module h2,
 .viewjob .content-module h3 {
   font-size: 12px;
   font-weight: bold;
   margin: 10px 0; }
 
-/* line 859, scss/styles.scss */
+/* line 875, scss/styles.scss */
 .rich-text p {
   margin: 10px 0; }
 
-/* line 863, scss/styles.scss */
+/* line 879, scss/styles.scss */
 .rich-text ul {
   list-style: disc outside;
   margin: 10px 0;
   padding-left: 25px; }
 
-/* line 869, scss/styles.scss */
+/* line 885, scss/styles.scss */
 .rich-text ul li {
   list-style: disc outside;
   margin-left: 15px; }
 
-/* line 874, scss/styles.scss */
+/* line 890, scss/styles.scss */
 .viewjob .content-module dl {
   overflow: hidden; }
 
-/* line 878, scss/styles.scss */
+/* line 894, scss/styles.scss */
 .viewjob .content-module dt {
   clear: both;
   float: left;
   font-weight: bold;
   width: 30%; }
 
-/* line 885, scss/styles.scss */
+/* line 901, scss/styles.scss */
 .viewjob .content-module dd {
   float: left;
   width: 60%; }
 
-/* line 890, scss/styles.scss */
+/* line 906, scss/styles.scss */
 .viewjob .content-module .actions {
   margin-top: 20px; }
 
-/* line 894, scss/styles.scss */
+/* line 910, scss/styles.scss */
 .viewjob .content-module .actions li {
   float: left; }
 
-/* line 898, scss/styles.scss */
+/* line 914, scss/styles.scss */
 .apply-with-linkedin {
   color: #FFF !important;
   cursor: pointer !important;
@@ -866,7 +876,7 @@ button.facet-toggle {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #65add2), color-stop(30%, #0f90d2), color-stop(67%, #006daa), color-stop(100%, #07547d)) !important;
   background-image: -webkit-linear-gradient(top, #65add2 0%, #0f90d2 30%, #006daa 67%, #07547d 100%) !important; }
 
-/* line 928, scss/styles.scss */
+/* line 944, scss/styles.scss */
 .apply-resume .btn-action {
   display: inline-block;
   height: 26px;
@@ -883,7 +893,7 @@ button.facet-toggle {
   cursor: pointer;
   text-align: center; }
 
-/* line 945, scss/styles.scss */
+/* line 961, scss/styles.scss */
 .btn-action {
   background: #FFCF0B;
   background: -moz-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe976 1px, #ffcf0b 100%);
