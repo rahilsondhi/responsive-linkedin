@@ -447,6 +447,7 @@ clear: both;
 #extra-col {
   display: none;
   float: right;
+  padding: 10px 20px 0 0;
   width: 300px;
 }
 
@@ -916,7 +917,7 @@ button.facet-toggle {
   cursor: pointer !important;
   display: block !important;
   white-space: nowrap !important;
-  float: left !important;
+  // float: left !important;
   margin-left: 1px !important;
   vertical-align: top !important;
   overflow: hidden !important;
@@ -970,4 +971,51 @@ button.facet-toggle {
   border: 1px solid #E8B463;
   color: #333 !important;
   font-weight: bold;
+}
+
+//
+// Extra column
+//
+
+#extra-col .actions li {
+  clear: both;
+  padding: 5px 0;
+}
+
+#extra-col .actions apply-li {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#extra-col .actions .apply-resume {
+  text-align: center;
+}
+
+#extra-col .actions li.save {
+  overflow: hidden;
+}
+
+#extra-col .actions li.save .job-saving {
+  background: url('http://www.linkedin.com/scds/common/u/img/icon/icon_save_job_16x15.png') 2px 0 no-repeat;
+  padding-left: 26px;
+  padding-right: 8px;
+  float: left;
+  border-right: 1px solid #CCC;
+}
+
+#extra-col .actions li.save .view-saved-jobs {
+  float: left;
+  padding-left: 8px;
+}
+
+#extra-col .actions li.share a {
+  background: url('http://www.linkedin.com/scds/common/u/img/icon/icon_job_forward_18x16.png') 0 -2px no-repeat;
+  margin-right: 5px;
+  padding-left: 26px;
+}
+
+#extra-col .actions li.follow a {
+  background: url('http://www.linkedin.com/scds/common/u/img/sprite/sprite_cmpfollow_v1.png') 0 -81px no-repeat;
+  background-position: 2px -1px;
+  padding: 0 0 2px 26px;
 }
