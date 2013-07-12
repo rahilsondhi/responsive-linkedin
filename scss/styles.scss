@@ -429,8 +429,9 @@ clear: both;
 
 #details-col {
   display: none;
-  margin-right: -195px - 564px;
-  width: 100%;
+  // margin-right: -195px - 564px;
+  // width: 100%;
+  overflow: hidden;
 }
 
 .srp-title {
@@ -791,4 +792,166 @@ button.facet-toggle {
 
 .result .srp-actions.blue-button .primary-action-button a {
   color: #fff;
+}
+
+//
+// Job details
+//
+
+.viewjob .content-module {
+  // border-top: 1px solid #DDD;
+  // clear: both;
+  font-size: 13px;
+  // overflow: hidden;
+  // padding: 20px 10px;
+}
+
+.viewjob .job-vitals {
+  background: url('http://www.linkedin.com/scds/common/u/img/bg/bg_search_box_1x136.png') repeat-x 0 0 #F0F0F0;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  padding: 20px 0;
+}
+
+.viewjob .job-vitals .logo {
+  height: 60px;
+  width: 100px;
+  position: relative;
+  float: right;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.viewjob .job-vitals .logo .photo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  border: none;
+}
+
+.viewjob .job-vitals .has-logo {
+  padding: 5px 135px 0 10px;
+}
+
+.viewjob .job-vitals h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.viewjob .content-module h2,
+.viewjob .content-module h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.rich-text p {
+  margin: 10px 0;
+}
+
+.rich-text ul {
+  list-style: disc outside;
+  margin: 10px 0;
+  padding-left: 25px;
+}
+
+.rich-text ul li {
+  list-style: disc outside;
+  margin-left: 15px;
+}
+
+.viewjob .content-module dl {
+  overflow: hidden;
+}
+
+.viewjob .content-module dt {
+  clear: both;
+  float: left;
+  font-weight: bold;
+  width: 30%;
+}
+
+.viewjob .content-module dd {
+  float: left;
+  width: 60%;
+}
+
+.viewjob .content-module .actions {
+  margin-top: 20px;
+}
+
+.viewjob .content-module .actions li {
+  float: left;
+}
+
+.apply-with-linkedin {
+  color: #FFF !important;
+  cursor: pointer !important;
+  display: block !important;
+  white-space: nowrap !important;
+  float: left !important;
+  margin-left: 1px !important;
+  vertical-align: top !important;
+  overflow: hidden !important;
+  text-align: center !important;
+  height: 31px !important;
+  padding: 0 10px 0 10px !important;
+  border: 1px solid #000 !important;
+  border-top-color: #2771AA !important;
+  border-right-color: #2771AA !important;
+  border-bottom-color: #2771AA !important;
+  border-left-color: #2771AA !important;
+  text-shadow: none !important;
+  line-height: 33px !important;
+  border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+  -webkit-border-top-right-radius: 3px !important;
+  -webkit-border-bottom-right-radius: 3px !important;
+  background-color: #007CBB !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#65ADD2), color-stop(30%,#0F90D2), color-stop(67%,#006DAA), color-stop(100%,#07547D)) !important;
+  background-image: -webkit-linear-gradient(top, #65ADD2 0%, #0F90D2 30%, #006DAA 67%, #07547D 100%) !important;
+}
+
+.apply-resume .btn-action {
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  float: none;
+  font-size: 12px;
+  margin: 0 10px;
+  min-width: 215px;
+  width: auto;
+  _width: 215px;
+  padding: 0;
+  text-decoration: none !important;
+  color: #000 !important;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-action {
+  background: #FFCF0B;
+  background: -moz-linear-gradient(top, #FFF5BD 0, #FFF5BD 1px, #FFE976 1px, #FFCF0B 100%);
+  background: -o-linear-gradient(top, #FFF5BD 0, #FFF5BD 1px, #FFE976 1px, #FFCF0B 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF5BD), color-stop(5%, #FFF5BD), color-stop(5%, #FFE976), color-stop(100%, #FFCF0B));
+  background: linear-gradient(top, #FFF5BD 0%,#FFF5BD 1px,#FFE976 1px,#FFCF0B 100%);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE976', endColorstr='#FFCF0B',GradientType=0 );
+  border: 1px solid #E8B463;
+  color: #333 !important;
+  font-weight: bold;
 }
