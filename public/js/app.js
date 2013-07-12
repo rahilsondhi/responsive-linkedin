@@ -54,12 +54,21 @@
 
   $(function() {
     $('ol#results').append(Handlebars.compile($('#result-tmpl').html())(data));
-    return $('[data-job-id]').click(function(e) {
+    $('[data-job-id]').click(function(e) {
       e.preventDefault();
       if ($(window).width() >= 1600) {
         return $('body').toggleClass('responsive', true);
       } else {
         return alert('You are on a small screen. The job will open in a new page (current behaviour on linkedin.com). Try expanding your browser to 1600px+.');
+      }
+    });
+    return $(window).resize(function() {
+      if ($('body').hasClass('responsive') && $(window).width() < 1600) {
+        console.log('hide the results');
+        $('#facets-col, #results-col, .srp-title').hide();
+        return $('#details-col, #extra-col').show();
+      } else {
+        return $('#facets-col, #results-col, .srp-title').show();
       }
     });
   });

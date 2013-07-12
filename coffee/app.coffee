@@ -73,3 +73,13 @@ $ ->
       $('body').toggleClass 'responsive', true
     else
       alert 'You are on a small screen. The job will open in a new page (current behaviour on linkedin.com). Try expanding your browser to 1600px+.'
+
+  # If a job is open in the 4col layout and the user shrinks their browser,
+  # we should hide the results and just show the job related columns
+  $(window).resize ->
+    if $('body').hasClass('responsive') and $(window).width() < 1600
+      console.log 'hide the results'
+      $('#facets-col, #results-col, .srp-title').hide()
+      $('#details-col, #extra-col').show()
+    else
+      $('#facets-col, #results-col, .srp-title').show()

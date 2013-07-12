@@ -402,7 +402,7 @@ body strong {
 /* line 436, scss/styles.scss */
 #details-col {
   display: none;
-  padding: 10px 20px 10px 0;
+  padding: 20px;
   overflow: hidden; }
 
 /* line 452, scss/styles.scss */

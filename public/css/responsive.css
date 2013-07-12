@@ -11,8 +11,9 @@
 
   /* line 12, scss/responsive.scss */
   .responsive #details-col {
-    display: block; }
+    display: block;
+    padding: 10px 20px 10px 0; }
 
-  /* line 16, scss/responsive.scss */
+  /* line 17, scss/responsive.scss */
   .responsive #extra-col {
     display: block; } }
