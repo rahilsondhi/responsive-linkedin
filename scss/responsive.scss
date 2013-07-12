@@ -1,19 +1,19 @@
 @media screen and (min-width: 1600px) {
-  #body {
+  .responsive #body {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
   }
 
-  #body .wrapper {
+  .responsive #body .wrapper {
     width: 98%;
   }
 
-  #details-col {
+  .responsive #details-col {
     display: block;
   }
 
-  #extra-col {
+  .responsive #extra-col {
     display: block;
   }
 }

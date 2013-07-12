@@ -1,18 +1,18 @@
 @media screen and (min-width: 1600px) {
   /* line 2, scss/responsive.scss */
-  #body {
+  .responsive #body {
     padding-left: 0;
     padding-right: 0;
     width: 100%; }
 
   /* line 8, scss/responsive.scss */
-  #body .wrapper {
+  .responsive #body .wrapper {
     width: 98%; }
 
   /* line 12, scss/responsive.scss */
-  #details-col {
+  .responsive #details-col {
     display: block; }
 
   /* line 16, scss/responsive.scss */
-  #extra-col {
+  .responsive #extra-col {
     display: block; } }

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/responsive.css">
   <title>Search | LinkedIn</title>
 </head>
-<body>
+<body class="">
   <div id="header" class="global-header">
     <div id="top-header">
         <div class="wrapper">
@@ -174,65 +174,6 @@
 
             <div id="results-container">
               <ol id="results" class="search-results">
-                <li class="mod result job">
-                  <a href="">
-                    <img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_60_60/p/8/000/27a/3e6/148057c.png" alt="LinkedIn" class="entity-img" width="60" height="60" />
-                  </a>
-
-                  <div class="bd">
-                    <h3>
-                      <a href="" class="title">Partner Engineer</a>
-                    </h3>
-                    <p class="description">
-                      <a href="">LinkedIn</a>
-                    </p>
-                    <dl class="demographic">
-                      <dt>Location</dt>
-                      <dd>Mountain View</dd>
-                      <dt>Posted Date</dt>
-                      <dd class="separator">Jul 11, 2013</dd>
-                    </dl>
-                    <div class="social-wrapper">
-                      <ul class="social-line">
-                        <li class="shared-conn">
-                          <a href="">498 people in your network</a>
-                        </li>
-                        <li class="similar">
-                          <a href="">Similar</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="srp-actions blue-button">
-                      <div class="primary-action-button">
-                        <a href="" class="primary-action label">Save Job</a>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
-                <li class="mod result job"></li>
               </ol>
             </div>
           </div>
@@ -349,6 +290,44 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
   <script src="js/app.js"></script>
 
-  <script id="result-tmpl" type="text/x-handlebars-template"></script>
+  <script id="result-tmpl" type="text/x-handlebars-template">
+    {{#each jobs}}
+      <li class="mod result job">
+        <a href="">
+          <img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_60_60/p/8/000/27a/3e6/148057c.png" alt="LinkedIn" class="entity-img" width="60" height="60" />
+        </a>
+
+        <div class="bd">
+          <h3>
+            <a href="" class="title">{{name}}</a>
+          </h3>
+          <p class="description">
+            <a href="">LinkedIn</a>
+          </p>
+          <dl class="demographic">
+            <dt>Location</dt>
+            <dd>Mountain View</dd>
+            <dt>Posted Date</dt>
+            <dd class="separator">{{date}}</dd>
+          </dl>
+          <div class="social-wrapper">
+            <ul class="social-line">
+              <li class="shared-conn">
+                <a href="">498 people in your network</a>
+              </li>
+              <li class="similar">
+                <a href="">Similar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="srp-actions blue-button">
+            <div class="primary-action-button">
+              <a href="" class="primary-action label">Save Job</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    {{/each}}
+  </script>
 </body>
 </html>
