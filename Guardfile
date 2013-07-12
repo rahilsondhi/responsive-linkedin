@@ -15,3 +15,9 @@ guard 'sass',
   output: 'public/css',
   all_on_start: true,
   line_numbers: true
+
+guard 'coffeescript',
+  input: 'coffee',
+  output: 'public/js',
+  all_on_start: true,
+  line_numbers: true
