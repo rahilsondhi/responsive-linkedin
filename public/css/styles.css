@@ -336,15 +336,19 @@ body strong {
   clear: both;
   margin: 0 auto;
   padding: 80px 10px;
-  width: 980px; }
+  width: 980px;
+  -webkit-transition: width 0.4s;
+  -moz-transition: width 0.4s;
+  -o-transition: width 0.4s;
+  transition: width 0.4s; }
 
-/* line 366, scss/styles.scss */
+/* line 371, scss/styles.scss */
 #body .wrapper {
   margin-left: auto;
   margin-right: auto;
   width: 974px; }
 
-/* line 372, scss/styles.scss */
+/* line 377, scss/styles.scss */
 #srp_main_ {
   background: #FFF;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
@@ -352,20 +356,20 @@ body strong {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
   position: relative; }
 
-/* line 380, scss/styles.scss */
+/* line 385, scss/styles.scss */
 #srp_container {
   position: relative;
   min-height: 730px;
   height: auto;
   _height: 730px; }
 
-/* line 387, scss/styles.scss */
+/* line 392, scss/styles.scss */
 #srp_container:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 397, scss/styles.scss */
+/* line 402, scss/styles.scss */
 .mod {
   padding: 10px 0;
   background-color: #FFF;
@@ -383,39 +387,39 @@ body strong {
   border: 0 solid rgba(0, 0, 0, 0);
   border-bottom-width: 1px; }
 
-/* line 419, scss/styles.scss */
+/* line 424, scss/styles.scss */
 #facets-col {
   float: left;
   margin-top: 35px;
   width: 195px; }
 
-/* line 425, scss/styles.scss */
+/* line 430, scss/styles.scss */
 #results-col {
   float: left;
   padding: 0 20px;
   width: 564px; }
 
-/* line 431, scss/styles.scss */
+/* line 436, scss/styles.scss */
 #details-col {
   display: none;
   padding: 10px 20px 10px 0;
   overflow: hidden; }
 
-/* line 447, scss/styles.scss */
+/* line 452, scss/styles.scss */
 #extra-col {
   display: none;
   float: right;
   padding: 10px 20px 0 0;
   width: 300px; }
 
-/* line 454, scss/styles.scss */
+/* line 459, scss/styles.scss */
 .srp-title {
   position: absolute;
   top: 0;
   left: 0;
   padding: 0; }
 
-/* line 461, scss/styles.scss */
+/* line 466, scss/styles.scss */
 .srp-title h2 {
   background: #333;
   color: #FFF;
@@ -429,14 +433,14 @@ body strong {
   zoom: 1;
   text-transform: uppercase; }
 
-/* line 479, scss/styles.scss */
+/* line 484, scss/styles.scss */
 #facets-col .mod {
   background-image: -webkit-linear-gradient(left, lightgrey 0%, #ededed 100%);
   background-image: -moz-linear-gradient(left, lightgrey 0%, #ededed 100%);
   background-image: -o-linear-gradient(left, lightgrey 0%, #ededed 100%);
   background-image: linear-gradient(left, lightgrey 0%, #ededed 100%); }
 
-/* line 486, scss/styles.scss */
+/* line 491, scss/styles.scss */
 #facets-col .advs-link {
   display: block;
   color: #888;
@@ -444,11 +448,11 @@ body strong {
   position: relative;
   z-index: 80; }
 
-/* line 494, scss/styles.scss */
+/* line 499, scss/styles.scss */
 #facets-col .advs-link .advs-indicator.available {
   background-position: -7px -419px; }
 
-/* line 498, scss/styles.scss */
+/* line 503, scss/styles.scss */
 #facets-col .advs-link .advs-indicator {
   text-indent: -119988px;
   overflow: hidden;
@@ -462,26 +466,26 @@ body strong {
   margin-left: 8px;
   background: rgba(0, 0, 0, 0) url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat 0 -419px; }
 
-/* line 512, scss/styles.scss */
+/* line 517, scss/styles.scss */
 #facets-col .search-types {
   padding-top: 8px;
   padding-bottom: 9px; }
 
-/* line 517, scss/styles.scss */
+/* line 522, scss/styles.scss */
 .search-types {
   padding: 20px 0; }
 
-/* line 521, scss/styles.scss */
+/* line 526, scss/styles.scss */
 .search-types li {
   margin-right: 20px; }
 
-/* line 525, scss/styles.scss */
+/* line 530, scss/styles.scss */
 .search-types a {
   color: #808080;
   line-height: 20px;
   padding-left: 26px; }
 
-/* line 531, scss/styles.scss */
+/* line 536, scss/styles.scss */
 .search-types li.selected {
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF01ADEF', endColorstr='#FF00CDED');
   background: #01ADEF;
@@ -491,7 +495,7 @@ body strong {
   background-image: -o-linear-gradient(#01adef, #00cded);
   background-image: linear-gradient(#01adef, #00cded); }
 
-/* line 541, scss/styles.scss */
+/* line 546, scss/styles.scss */
 .search-types li.selected strong {
   background-color: #FFF;
   color: #000;
@@ -503,18 +507,18 @@ body strong {
   padding: 3px 0 0 15px;
   text-decoration: none; }
 
-/* line 553, scss/styles.scss */
+/* line 558, scss/styles.scss */
 .facet {
   position: relative; }
 
-/* line 557, scss/styles.scss */
+/* line 562, scss/styles.scss */
 .facet fieldset {
   border: 0;
   margin: 0;
   padding: 0;
   position: relative; }
 
-/* line 564, scss/styles.scss */
+/* line 569, scss/styles.scss */
 legend.facet-toggle {
   color: #333;
   cursor: pointer;
@@ -526,15 +530,15 @@ legend.facet-toggle {
   margin-left: 2px;
   width: 140px; }
 
-/* line 576, scss/styles.scss */
+/* line 581, scss/styles.scss */
 button.facet-toggle {
   display: none; }
 
-/* line 584, scss/styles.scss */
+/* line 589, scss/styles.scss */
 .results_count {
   position: relative; }
 
-/* line 588, scss/styles.scss */
+/* line 593, scss/styles.scss */
 .results_count .jobs-sort {
   position: absolute;
   top: 0;
@@ -543,7 +547,7 @@ button.facet-toggle {
   width: auto;
   _width: 154px; }
 
-/* line 597, scss/styles.scss */
+/* line 602, scss/styles.scss */
 .results_count .jobs-sort .dropdown-trigger {
   border: none;
   background: none;
@@ -555,12 +559,12 @@ button.facet-toggle {
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 613, scss/styles.scss */
+/* line 618, scss/styles.scss */
 #pivot-bar {
   overflow: hidden;
   padding: 5px 0 10px 0; }
 
-/* line 618, scss/styles.scss */
+/* line 623, scss/styles.scss */
 #pivot-bar .pivot {
   background-color: #EBEBEB;
   padding: 5px 5px 4px 10px;
@@ -578,7 +582,7 @@ button.facet-toggle {
   border-radius: 2px;
   white-space: nowrap; }
 
-/* line 636, scss/styles.scss */
+/* line 641, scss/styles.scss */
 #pivot-bar .remove-pivot {
   border: none;
   text-indent: -119988px;
@@ -592,7 +596,7 @@ button.facet-toggle {
   padding: 0;
   cursor: pointer; }
 
-/* line 650, scss/styles.scss */
+/* line 655, scss/styles.scss */
 #pivot-bar .pivot-reset {
   float: left;
   padding: 5px 10px 4px 10px;
@@ -608,11 +612,11 @@ button.facet-toggle {
   -o-border-radius: 2px;
   border-radius: 2px; }
 
-/* line 670, scss/styles.scss */
+/* line 675, scss/styles.scss */
 #results-container {
   position: relative; }
 
-/* line 674, scss/styles.scss */
+/* line 679, scss/styles.scss */
 .result {
   height: auto;
   min-height: 60px;
@@ -620,17 +624,17 @@ button.facet-toggle {
   position: relative;
   overflow: visible; }
 
-/* line 682, scss/styles.scss */
+/* line 687, scss/styles.scss */
 .result .entity-img {
   float: left; }
 
-/* line 686, scss/styles.scss */
+/* line 691, scss/styles.scss */
 .result .bd {
   margin-left: 68px;
   width: 65%;
   word-wrap: break-word; }
 
-/* line 692, scss/styles.scss */
+/* line 697, scss/styles.scss */
 .result .bd h3 {
   font-size: 16px;
   font-weight: bold;
@@ -639,66 +643,66 @@ button.facet-toggle {
   line-height: 17px;
   font-weight: normal; }
 
-/* line 701, scss/styles.scss */
+/* line 706, scss/styles.scss */
 .result .bd h3 a.title {
   margin-right: 5px; }
 
-/* line 705, scss/styles.scss */
+/* line 710, scss/styles.scss */
 .result .bd .description {
   line-height: 17px;
   color: #333;
   font-weight: normal;
   font-size: 12px; }
 
-/* line 712, scss/styles.scss */
+/* line 717, scss/styles.scss */
 .result .bd .demographic {
   color: #A9A9A9;
   font-size: 12px;
   margin-top: -2px;
   overflow: hidden; }
 
-/* line 719, scss/styles.scss */
+/* line 724, scss/styles.scss */
 .result .bd .demographic dt {
   position: absolute;
   left: -9999px; }
 
-/* line 724, scss/styles.scss */
+/* line 729, scss/styles.scss */
 .result .bd .demographic dd {
   float: left; }
 
-/* line 728, scss/styles.scss */
+/* line 733, scss/styles.scss */
 .result .bd .demographic .separator {
   background: url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat -3px -236px;
   margin-left: 3px;
   padding-left: 8px; }
 
-/* line 734, scss/styles.scss */
+/* line 739, scss/styles.scss */
 .result .bd .social-wrapper {
   min-height: 17px;
   height: auto;
   _height: 17px; }
 
-/* line 740, scss/styles.scss */
+/* line 745, scss/styles.scss */
 .result .bd .social-wrapper .social-line {
   color: #519421;
   font-size: 12px;
   margin-top: -2px; }
 
-/* line 746, scss/styles.scss */
+/* line 751, scss/styles.scss */
 .result .bd .social-wrapper .social-line a {
   color: #519421; }
 
-/* line 750, scss/styles.scss */
+/* line 755, scss/styles.scss */
 .result .bd .social-wrapper .social-line li {
   display: inline; }
 
-/* line 754, scss/styles.scss */
+/* line 759, scss/styles.scss */
 .result .bd .social-wrapper .social-line li.similar a {
   background: url("http://www.linkedin.com/scds/common/u/images/apps/voltron/sprite_search_voltron_v10.png") no-repeat -4px -261px;
   padding-left: 6px;
   margin-left: 4px; }
 
-/* line 760, scss/styles.scss */
+/* line 765, scss/styles.scss */
 .result .srp-actions {
   display: -moz-inline-stack;
   display: inline-block;
@@ -709,7 +713,7 @@ button.facet-toggle {
   right: 0;
   white-space: nowrap; }
 
-/* line 771, scss/styles.scss */
+/* line 776, scss/styles.scss */
 .result .srp-actions .primary-action-button {
   font-weight: bold;
   border-width: 1px;
@@ -748,17 +752,17 @@ button.facet-toggle {
   zoom: 1;
   vertical-align: middle; }
 
-/* line 810, scss/styles.scss */
+/* line 815, scss/styles.scss */
 .result .srp-actions.blue-button .primary-action-button a {
   color: #fff; }
 
-/* line 818, scss/styles.scss */
+/* line 823, scss/styles.scss */
 .viewjob .content-module {
   clear: both;
   font-size: 13px;
   overflow: hidden; }
 
-/* line 826, scss/styles.scss */
+/* line 831, scss/styles.scss */
 .viewjob .job-vitals {
   background: url("http://www.linkedin.com/scds/common/u/img/bg/bg_search_box_1x136.png") repeat-x 0 0 #f0f0f0;
   border: 1px solid #DDD;
@@ -770,7 +774,7 @@ button.facet-toggle {
   font-size: 13px;
   padding: 20px 0; }
 
-/* line 838, scss/styles.scss */
+/* line 843, scss/styles.scss */
 .viewjob .job-vitals .logo {
   height: 60px;
   width: 100px;
@@ -781,7 +785,7 @@ button.facet-toggle {
   margin-right: 15px;
   padding: 5px; }
 
-/* line 849, scss/styles.scss */
+/* line 854, scss/styles.scss */
 .viewjob .job-vitals .logo .photo {
   position: absolute;
   top: 0;
@@ -792,62 +796,62 @@ button.facet-toggle {
   padding: 0;
   border: none; }
 
-/* line 860, scss/styles.scss */
+/* line 865, scss/styles.scss */
 .viewjob .job-vitals .has-logo {
   padding: 5px 135px 0 10px; }
 
-/* line 864, scss/styles.scss */
+/* line 869, scss/styles.scss */
 .viewjob .job-vitals h1 {
   font-size: 20px;
   font-weight: normal; }
 
-/* line 870, scss/styles.scss */
+/* line 875, scss/styles.scss */
 .viewjob .content-module h2,
 .viewjob .content-module h3 {
   font-size: 12px;
   font-weight: bold;
   margin: 10px 0; }
 
-/* line 876, scss/styles.scss */
+/* line 881, scss/styles.scss */
 .rich-text p {
   margin: 10px 0; }
 
-/* line 880, scss/styles.scss */
+/* line 885, scss/styles.scss */
 .rich-text ul {
   list-style: disc outside;
   margin: 10px 0;
   padding-left: 25px; }
 
-/* line 886, scss/styles.scss */
+/* line 891, scss/styles.scss */
 .rich-text ul li {
   list-style: disc outside;
   margin-left: 15px; }
 
-/* line 891, scss/styles.scss */
+/* line 896, scss/styles.scss */
 .viewjob .content-module dl {
   overflow: hidden; }
 
-/* line 895, scss/styles.scss */
+/* line 900, scss/styles.scss */
 .viewjob .content-module dt {
   clear: both;
   float: left;
   font-weight: bold;
   width: 30%; }
 
-/* line 902, scss/styles.scss */
+/* line 907, scss/styles.scss */
 .viewjob .content-module dd {
   float: left;
   width: 60%; }
 
-/* line 907, scss/styles.scss */
+/* line 912, scss/styles.scss */
 .viewjob .content-module .actions {
   margin-top: 20px; }
 
-/* line 911, scss/styles.scss */
+/* line 916, scss/styles.scss */
 .viewjob .content-module .actions li {
   float: left; }
 
-/* line 915, scss/styles.scss */
+/* line 920, scss/styles.scss */
 .apply-with-linkedin {
   color: #FFF !important;
   cursor: pointer !important;
@@ -876,7 +880,7 @@ button.facet-toggle {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #65add2), color-stop(30%, #0f90d2), color-stop(67%, #006daa), color-stop(100%, #07547d)) !important;
   background-image: -webkit-linear-gradient(top, #65add2 0%, #0f90d2 30%, #006daa 67%, #07547d 100%) !important; }
 
-/* line 945, scss/styles.scss */
+/* line 950, scss/styles.scss */
 .apply-resume .btn-action {
   display: inline-block;
   height: 26px;
@@ -893,7 +897,7 @@ button.facet-toggle {
   cursor: pointer;
   text-align: center; }
 
-/* line 962, scss/styles.scss */
+/* line 967, scss/styles.scss */
 .btn-action {
   background: #FFCF0B;
   background: -moz-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe976 1px, #ffcf0b 100%);
@@ -907,25 +911,25 @@ button.facet-toggle {
   color: #333 !important;
   font-weight: bold; }
 
-/* line 980, scss/styles.scss */
+/* line 985, scss/styles.scss */
 #extra-col .actions li {
   clear: both;
   padding: 5px 0; }
 
-/* line 985, scss/styles.scss */
+/* line 990, scss/styles.scss */
 #extra-col .actions apply-li {
   padding: 10px 0;
   text-align: center; }
 
-/* line 990, scss/styles.scss */
+/* line 995, scss/styles.scss */
 #extra-col .actions .apply-resume {
   text-align: center; }
 
-/* line 994, scss/styles.scss */
+/* line 999, scss/styles.scss */
 #extra-col .actions li.save {
   overflow: hidden; }
 
-/* line 998, scss/styles.scss */
+/* line 1003, scss/styles.scss */
 #extra-col .actions li.save .job-saving {
   background: url("http://www.linkedin.com/scds/common/u/img/icon/icon_save_job_16x15.png") 2px 0 no-repeat;
   padding-left: 26px;
@@ -933,18 +937,18 @@ button.facet-toggle {
   float: left;
   border-right: 1px solid #CCC; }
 
-/* line 1006, scss/styles.scss */
+/* line 1011, scss/styles.scss */
 #extra-col .actions li.save .view-saved-jobs {
   float: left;
   padding-left: 8px; }
 
-/* line 1011, scss/styles.scss */
+/* line 1016, scss/styles.scss */
 #extra-col .actions li.share a {
   background: url("http://www.linkedin.com/scds/common/u/img/icon/icon_job_forward_18x16.png") 0 -2px no-repeat;
   margin-right: 5px;
   padding-left: 26px; }
 
-/* line 1017, scss/styles.scss */
+/* line 1022, scss/styles.scss */
 #extra-col .actions li.follow a {
   background: url("http://www.linkedin.com/scds/common/u/img/sprite/sprite_cmpfollow_v1.png") 0 -81px no-repeat;
   background-position: 2px -1px;

@@ -53,7 +53,15 @@
   ];
 
   $(function() {
-    return $('ol#results').append(Handlebars.compile($('#result-tmpl').html())(data));
+    $('ol#results').append(Handlebars.compile($('#result-tmpl').html())(data));
+    return $('[data-job-id]').click(function(e) {
+      e.preventDefault();
+      if ($(window).width() >= 1600) {
+        return $('body').toggleClass('responsive', true);
+      } else {
+        return alert('You are on a small screen. The job will open in a new page (current behaviour on linkedin.com). Try expanding your browser to 1600px+.');
+      }
+    });
   });
 
 }).call(this);

@@ -63,4 +63,13 @@ data.jobs = [
 ]
 
 $ ->
+  # Dummy data for search results
   $('ol#results').append Handlebars.compile($('#result-tmpl').html())(data)
+
+  # Bind to clicks on results
+  $('[data-job-id]').click (e) ->
+    e.preventDefault()
+    if $(window).width() >= 1600
+      $('body').toggleClass 'responsive', true
+    else
+      alert 'You are on a small screen. The job will open in a new page (current behaviour on linkedin.com). Try expanding your browser to 1600px+.'

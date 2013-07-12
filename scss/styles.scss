@@ -361,6 +361,11 @@ body strong {
   margin: 0 auto;
   padding: 80px 10px;
   width: 980px;
+
+  -webkit-transition: width 0.4s;
+  -moz-transition: width 0.4s;
+  -o-transition: width 0.4s;
+  transition: width 0.4s;
 }
 
 #body .wrapper {
