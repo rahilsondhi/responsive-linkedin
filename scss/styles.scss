@@ -377,6 +377,28 @@ a {
 }
 
 //
+// Module
+//
+
+.mod {
+  padding: 10px 0;
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(left, #EDEDED 0%,#D3D3D3 50%,#EDEDED 100%);
+  background-image: -moz-linear-gradient(left, #EDEDED 0%,#D3D3D3 50%,#EDEDED 100%);
+  background-image: -o-linear-gradient(left, #EDEDED 0%,#D3D3D3 50%,#EDEDED 100%);
+  background-image: linear-gradient(left, #EDEDED 0%,#D3D3D3 50%,#EDEDED 100%);
+  -moz-box-shadow: inset 0 0 0 #fff,0 0 0 #fff,inset -9999px 0 0 #fff;
+  box-shadow: inset 0 0 0 #FFF,0 0 0 #FFF,inset -9999px 0 0 #FFF;
+  -webkit-background-origin: border;
+  -moz-background-origin: border;
+  -ms-background-origin: border-box;
+  -o-background-origin: border-box;
+  background-origin: border-box;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-bottom-width: 1px;
+}
+
+//
 // Jobs
 //
 
@@ -423,20 +445,10 @@ a {
 //
 
 #facets-col .mod {
-  background-color: #FFF;
   background-image: -webkit-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
   background-image: -moz-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
   background-image: -o-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
   background-image: linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
-  -moz-box-shadow: inset 0 0 0 #fff,0 0 0 #fff,inset -9999px 0 0 #fff;
-  box-shadow: inset 0 0 0 #FFF,0 0 0 #FFF,inset -9999px 0 0 #FFF;
-  -webkit-background-origin: border;
-  -moz-background-origin: border;
-  -ms-background-origin: border-box;
-  -o-background-origin: border-box;
-  background-origin: border-box;
-  border: 0 solid rgba(0, 0, 0, 0);
-  border-bottom-width: 1px;
 }
 
 #facets-col .advs-link {
@@ -468,23 +480,6 @@ a {
 #facets-col .search-types {
   padding-top: 8px;
   padding-bottom: 9px;
-}
-
-#facets-col .mod {
-  background-color: #FFF;
-  background-image: -webkit-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
-  background-image: -moz-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
-  background-image: -o-linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
-  background-image: linear-gradient(left, #D3D3D3 0%,#EDEDED 100%);
-  -moz-box-shadow: inset 0 0 0 #fff,0 0 0 #fff,inset -9999px 0 0 #fff;
-  box-shadow: inset 0 0 0 #FFF,0 0 0 #FFF,inset -9999px 0 0 #FFF;
-  -webkit-background-origin: border;
-  -moz-background-origin: border;
-  -ms-background-origin: border-box;
-  -o-background-origin: border-box;
-  background-origin: border-box;
-  border: 0 solid rgba(0, 0, 0, 0);
-  border-bottom-width: 1px;
 }
 
 .search-types {
@@ -521,4 +516,31 @@ a {
   margin: -2px 0 0 11px;
   padding: 3px 0 0 15px;
   text-decoration: none;
+}
+
+.facet {
+  position: relative;
+}
+
+.facet fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+legend.facet-toggle {
+  color: #333;
+  cursor: pointer;
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+  padding-left: 24px;
+  margin-left: 2px;
+  width: 140px;
+}
+
+button.facet-toggle {
+  display: none;
 }
